@@ -1,4 +1,4 @@
-### Hi there 👋
+![](https://raw.githubusercontent.com/pruthvi-itribe/github-stats/main/generated/overview.svg#gh-light-mode-only)
 
 <!--
 **pruthvi-itribe/pruthvi-itribe** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
