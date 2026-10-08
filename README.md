@@ -24,10 +24,15 @@ TypeScript, NestJS, React, Flutter, Python, MongoDB, Kubernetes, Terraform, AWS.
 
 Most of my work over the last five years was the product we licensed to partners, so that code stays private. The stats below include private contributions.
 
-<img src="https://github.com/pruthvi-itribe/github-stats/blob/master/generated/overview.svg#gh-light-mode-only" />
-<img src="https://github.com/pruthvi-itribe/github-stats/blob/master/generated/overview.svg#gh-dark-mode-only" />
-<img src="https://github.com/pruthvi-itribe/github-stats/blob/master/generated/languages.svg#gh-light-mode-only" />
-<img src="https://github.com/pruthvi-itribe/github-stats/blob/master/generated/languages.svg#gh-dark-mode-only" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/pruthvi-itribe/github-stats/master/generated/cards/activity-dark.svg">
+  <img alt="Last 12 months: commits, pull requests, reviews, active days" src="https://raw.githubusercontent.com/pruthvi-itribe/github-stats/master/generated/cards/activity-light.svg">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/pruthvi-itribe/github-stats/master/generated/cards/languages-dark.svg">
+  <img alt="Languages weighted by commits" src="https://raw.githubusercontent.com/pruthvi-itribe/github-stats/master/generated/cards/languages-light.svg">
+</picture>
 
 ## Contact
 
