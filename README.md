@@ -31,4 +31,4 @@ Most of my work over the last five years was the product we licensed to partners
 
 ## Contact
 
-pruthviraj1991@gmail.com · [LinkedIn](https://www.linkedin.com/in/pruthvirajeranti/)
+[pruthvi-itribe.github.io](https://pruthvi-itribe.github.io) · pruthviraj1991@gmail.com · [LinkedIn](https://www.linkedin.com/in/pruthvirajeranti/)
