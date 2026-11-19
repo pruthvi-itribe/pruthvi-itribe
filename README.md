@@ -1,6 +1,6 @@
 # Pruthvi Raj Eranti
 
-Engineering leader and builder in Bengaluru. For the last five years I was co-founder and CTO of Cogrow Ventures (Twig & iTribe), where we built trading platforms for Indian brokers. Before that I was a Staff Engineer at Walmart Global Tech, and I've worked at Google, Disney and BlackBuck. CS from IIT Kharagpur.
+Engineer in Bengaluru building systematic trading for Indian derivatives: live execution bots, and the backtesting infrastructure that decides what is allowed to go live. Before this I spent five years as co-founder and CTO of Cogrow Ventures (Twig & iTribe), building trading platforms for Indian brokers. Earlier: Staff Engineer at Walmart Global Tech, plus Google, Disney and BlackBuck. CS from IIT Kharagpur.
 
 ## Things I've built
 
@@ -8,17 +8,23 @@ Engineering leader and builder in Bengaluru. For the last five years I was co-fo
 - **iTribe**, our consumer app, which reached 100K monthly users and 10M+ requests a month at under 100ms P99. I also cut our cloud spend by about 90%.
 - **Walmart's customer identity graph**, 115B nodes, resolving one shopper across every touchpoint. US Patent [11,556,370](https://patents.google.com/patent/US11556370B2).
 
+## Algo trading and backtesting
+
+- **Live futures and options engines.** Self-hosted NestJS systems that trade index futures and options end to end: broker WebSocket feeds, automated order management, verified stop-losses and crash recovery.
+- **Backtests built to say no.** Every idea gets a pre-registered test: the hypothesis and pass bar are committed before the run. Tests use discovery/confirmation splits, block-bootstrap confidence intervals, real transaction costs and an adversarial review. Most ideas fail, and that is the point.
+- **Data at scale.** 13 years across the Nifty 500, with point-in-time index membership rebuilt from 2006 snapshots to remove survivorship bias. A decade of NSE bhavcopy, 1-minute options candles for NIFTY and SENSEX expiries, and a live order-book depth recorder for entry-timing studies. Sweeps run to about 2,000 configurations across 30 stocks × 24 expiries.
+- **Execution realism.** Simulated fills land on the next open or on recorded bid/ask, never on the signal price. Live P&L is reconciled against the sim to find where the gap actually comes from.
+
 ## What I'm working on now
 
 - **[Disclosed](https://github.com/pruthvi-itribe/disclosed)**: real-time NSE/BSE corporate filings, where an LLM proposes claims and every claim is string-matched against the filing before it is shown. It's still early and there's a lot left to do.
-- Options research on NIFTY and SPY, mostly backtesting short-strangle rules against real bid/ask data (private for now).
 - MCP servers and agent tooling for market data.
 
 If you're working on Indian market data, broker integrations, or LLM extraction that has to be verifiable, I'd be happy to compare notes.
 
 ## Stack I use day to day
 
-TypeScript, NestJS, React, Flutter, Python, MongoDB, Kubernetes, Terraform, AWS.
+TypeScript, NestJS, React, Flutter, Python (pandas/NumPy), MongoDB, Kubernetes, Terraform, AWS.
 
 ## About the private repos
 
